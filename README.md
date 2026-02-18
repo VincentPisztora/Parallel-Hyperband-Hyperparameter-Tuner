@@ -1,5 +1,5 @@
 # Parallel-Hyperband-Hyperparameter-Tuner
-This repository contains code implementing the Hyperband hyperparameter tuning algorithm (described in [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization] (https://arxiv.org/pdf/1603.06560)). It is implemented such that each trial can be run in parallel to all other trials as a separate batch job. Useful for avoiding memory leaks from one trial round to the next.
+This repository contains code implementing the Hyperband hyperparameter tuning algorithm (described in [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://arxiv.org/pdf/1603.06560)). It is implemented such that each trial can be run in parallel to all other trials as a separate batch job. Useful for avoiding memory leaks from one trial round to the next.
 
 Notes:
     - The evaluation metric must be nonnegative and "larger is better"
